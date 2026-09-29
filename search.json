@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a PhD student in the field of Clinical Immunology at Karolinska Institutet, Sweden. I’m interested in base editing approaches and off-target validation methods for X-Linked agammaglobulinemia (XLA). I’m also interested in bioinformatics and computational biology.\nThis blog is part of the course “Reproducible Research” organized by the Swedish National Graduate School in Medical Bioinformatics (MedBioInfo). The blog is designed to provide a platform to the class of 2026 to share what we have learned during the course and showcase our work."
+  },
+  {
+    "objectID": "about.html#profile",
+    "href": "about.html#profile",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a PhD student in the field of Clinical Immunology at Karolinska Institutet, Sweden. I’m interested in base editing approaches and off-target validation methods for X-Linked agammaglobulinemia (XLA). I’m also interested in bioinformatics and computational biology.\nThis blog is part of the course “Reproducible Research” organized by the Swedish National Graduate School in Medical Bioinformatics (MedBioInfo). The blog is designed to provide a platform to the class of 2026 to share what we have learned during the course and showcase our work."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": " Education",
+    "text": "Education\nKarolinska Institutet | Stockholm, Sweden PhD in Clinical Immunology | Oct 2025 - Present\nAristotle University of Thessaloniki | Thessaloniki, Greece Master in Precision Medicine - Translational Research and Therapeutics | Oct 2021 - Jul 2024\nUniversity of Nicosia | Niocosia, Cyprus Bachelor in Pharmacy | Sept 2015 - June 2020"
+  },
+  {
+    "objectID": "about.html#ongoing-projects",
+    "href": "about.html#ongoing-projects",
+    "title": "About Me",
+    "section": " Ongoing Projects",
+    "text": "Ongoing Projects\n\nGenetic and functional corrections of X-Linked agammaglobulinemia (XLA) usind Adenine Base Editor.\nDetection and Quantification of Bystander Edits inside the Base Editor activity window using Next Generation Sequencing (NGS).\nOff-target detection and validation of Base Editing using CHANGE-seq-BE.\nTranscriptomic Buffering Detection: A Computational Approach to Identifying Essential Gene Dependencies in Pancreatic Cancer."
+  },
+  {
+    "objectID": "posts/Thursday/index.html",
+    "href": "posts/Thursday/index.html",
+    "title": "Thurday",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "You take the red pill - I show you how deep the rabbit hole goes",
+    "section": "",
+    "text": "Monday\n\n\n\nnews\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTuesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWednesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 18, 2026\n\n\n\n\n\n\nNo matching items"
+  }
+]

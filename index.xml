@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>RR_Blog_2026</title>
+<link>https://eleafe.github.io/RR_Blog_2026/</link>
+<atom:link href="https://eleafe.github.io/RR_Blog_2026/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Thu, 17 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Friday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</guid>
+  <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Friday/oracle.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Thurday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</guid>
+  <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Thursday/neo.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>Wednesday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</guid>
+  <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/morpheus.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Tuesday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</guid>
+  <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/smith.png" medium="image" type="image/png" height="106" width="144"/>
+</item>
+<item>
+  <title>Monday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</guid>
+  <pubDate>Sun, 13 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Monday/trinity.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
