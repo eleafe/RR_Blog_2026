@@ -1,0 +1,42 @@
+---
+title: "About Me"
+image: Me.jpg
+css: about.css
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+## <i class="bi bi-person-lines-fill"></i> Profile
+
+I'm a PhD student in the field of Clinical Immunology at Karolinska Institutet, Sweden. I'm interested in base editing approaches and off-target validation methods for X-Linked agammaglobulinemia (XLA). I'm also interested in bioinformatics and computational biology. 
+
+This blog is part of the course "Reproducible Research" organized by the Swedish National Graduate School in Medical Bioinformatics (MedBioInfo). The blog is designed to provide a platform to the class of 2026 to share what we have learned during the course and showcase our work.
+
+## <i class="bi bi-mortarboard-fill"></i> Education 
+Karolinska Institutet | Stockholm, Sweden
+<br>**PhD in Clinical Immunology** | Oct 2025 - Present
+
+Aristotle University of Thessaloniki | Thessaloniki, Greece
+<br>**Master in Precision Medicine - Translational Research and Therapeutics** | Oct 2021 - Jul 2024
+
+University of Nicosia | Niocosia, Cyprus
+<br>**Bachelor in Pharmacy** | Sept 2015 - June 2020
+
+## <i class="bi bi-flask-fill"></i> Ongoing Projects
+ 1. Genetic and functional corrections of X-Linked agammaglobulinemia (XLA) usind Adenine Base Editor. 
+
+ 2. Detection and Quantification of Bystander Edits inside the Base Editor activity window using Next Generation Sequencing (NGS). 
+
+ 3. Off-target detection and validation of Base Editing using CHANGE-seq-BE.
+
+ 4. Transcriptomic Buffering Detection: A Computational
+Approach to Identifying Essential Gene Dependencies in
+Pancreatic Cancer.

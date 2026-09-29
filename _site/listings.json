@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/Monday/index.html",
+      "/posts/Tuesday/index.html",
+      "/posts/Wednesday/index.html",
+      "/posts/Thursday/index.html",
+      "/posts/Friday/index.html"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+---
+title: "Thurday"
+author: "Eleni Afentaki"
+date: "2026-09-17"
+categories: [news, code, analysis]
+image: "neo.png"
+---
+
+This is a post with executable code.
