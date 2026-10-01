@@ -28,6 +28,13 @@
     "text": "Ongoing Projects\n\nGenetic and functional corrections of X-Linked agammaglobulinemia (XLA) usind Adenine Base Editor.\nDetection and Quantification of Bystander Edits inside the Base Editor activity window using Next Generation Sequencing (NGS).\nOff-target detection and validation of Base Editing using CHANGE-seq-BE.\nTranscriptomic Buffering Detection: A Computational Approach to Identifying Essential Gene Dependencies in Pancreatic Cancer."
   },
   {
+    "objectID": "posts/Tuesday/index.html",
+    "href": "posts/Tuesday/index.html",
+    "title": "Tuesday",
+    "section": "",
+    "text": "Introduction to environments\nQuality control of sequencing data Bonus: Python in Pixi Introduction to containers Using containers on your data"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "You take the red pill - I show you how deep the rabbit hole goes",
@@ -40,5 +47,33 @@
     "title": "Thurday",
     "section": "",
     "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/Monday/index.html",
+    "href": "posts/Monday/index.html",
+    "title": "Monday",
+    "section": "",
+    "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
+  },
+  {
+    "objectID": "posts/Monday/index.html#git-basics",
+    "href": "posts/Monday/index.html#git-basics",
+    "title": "Monday",
+    "section": "",
+    "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
+  },
+  {
+    "objectID": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
+    "href": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
+    "title": "Monday",
+    "section": "Create a Quarto Blog with VS Code",
+    "text": "Create a Quarto Blog with VS Code\nView → Command Palette → Quarto: Create New Project → New Directory → Blog Website → Name your project → Select a folder to save your project → Create Project."
+  },
+  {
+    "objectID": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
+    "href": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
+    "title": "Monday",
+    "section": "Publish your Quarto Blog to GitHub Pages",
+    "text": "Publish your Quarto Blog to GitHub Pages\n1. Create a repository on GitHub. No need to initialize the repository with a README, .gitignore, or license.\n2. In VS Code, open the blog’s project folder. In the terminal, run these commands, replacing USERNAME with your GitHub username:\ngit init -b main\ngit add .\ngit commit -m \"Add Quarto blog\"\ngit remote add origin https://github.com/USERNAME/RR_Blog_2026.git\ngit push -u origin main\n3. Create .github/workflows/publish.yml in the project and add the workflow shown below.\nname: Publish Quarto site\n\non:\n  push:\n    branches: [main]\n  workflow_dispatch:\n\npermissions:\n  contents: write\n\njobs:\n  publish:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n          ```\n\n**4.** Push the workflow to GitHub:\n\n   ```bash\n   git add .github/workflows/publish.yml\n   git commit -m \"Add GitHub Pages publishing workflow\"\n   git push\n5. On GitHub, go to Settings → Pages. Under Build and deployment, choose Deploy from a branch, then select the gh-pages branch and /(root) folder.\n7. Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.\n7. When the GitHub Actions workflow succeeds, you can access your blog from Pages → Visit site"
   }
 ]
