@@ -10,7 +10,7 @@
 <atom:link href="https://eleafe.github.io/RR_Blog_2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 17 Sep 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Friday</title>
   <dc:creator>Eleni Afentaki</dc:creator>
@@ -29,7 +29,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</guid>
-  <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Friday/oracle.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 <item>
@@ -51,7 +51,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</guid>
-  <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Thursday/neo.png" medium="image" type="image/png" height="76" width="144"/>
 </item>
 <item>
@@ -72,7 +72,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</guid>
-  <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/morpheus.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -93,7 +93,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</guid>
-  <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/smith.png" medium="image" type="image/png" height="106" width="144"/>
 </item>
 <item>
@@ -112,7 +112,7 @@
  ]]></description>
   <category>news</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</guid>
-  <pubDate>Sun, 13 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Monday/trinity.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
