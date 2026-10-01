@@ -5,3 +5,9 @@ date: "2026-09-15"
 categories: [news, code, analysis]
 image: "smith.png"
 ---
+	
+    Introduction to environments
+Quality control of sequencing data
+Bonus: Python in Pixi
+Introduction to containers
+Using containers on your data

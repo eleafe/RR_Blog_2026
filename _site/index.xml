@@ -6,10 +6,267 @@
       version="2.0">
 <channel>
 <title>RR_Blog_2026</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://eleafe.github.io/RR_Blog_2026/</link>
+<atom:link href="https://eleafe.github.io/RR_Blog_2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 26 Sep 2026 07:24:29 GMT</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Friday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</guid>
+  <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Friday/oracle.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Thurday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</guid>
+  <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Thursday/neo.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>Wednesday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</guid>
+  <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/morpheus.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Tuesday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<pre><code>Introduction to environments</code></pre>
+<p>Quality control of sequencing data Bonus: Python in Pixi Introduction to containers Using containers on your data</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</guid>
+  <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/smith.png" medium="image" type="image/png" height="106" width="144"/>
+</item>
+<item>
+  <title>Monday</title>
+  <dc:creator>Eleni Afentaki</dc:creator>
+  <link>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="git-basics" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="git-basics">Git Basics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://eleafe.github.io/RR_Blog_2026/posts/Monday/gitbasics.png" class="img-fluid figure-img"></p>
+<figcaption>Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html</figcaption>
+</figure>
+</div>
+</section>
+<section id="create-a-quarto-blog-with-vs-code" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="create-a-quarto-blog-with-vs-code">Create a Quarto Blog with VS Code</h2>
+<p><strong>View</strong> → <strong>Command Palette</strong> → <strong>Quarto: Create New Project</strong> → <strong>New Directory</strong> → <strong>Blog Website</strong> → <strong>Name your project</strong> → <strong>Select a folder to save your project</strong> → <strong>Create Project</strong>.</p>
+</section>
+<section id="publish-your-quarto-blog-to-github-pages" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="publish-your-quarto-blog-to-github-pages">Publish your Quarto Blog to GitHub Pages</h2>
+<p><strong>1.</strong> Create a repository on GitHub. No need to initialize the repository with a README, .gitignore, or license.</p>
+<p><strong>2.</strong> In VS Code, open the blog’s project folder. In the terminal, run these commands, replacing <code>USERNAME</code> with your GitHub username:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> init <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-b</span> main</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add .</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Add Quarto blog"</span></span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> remote add origin https://github.com/USERNAME/RR_Blog_2026.git</span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> push <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-u</span> origin main</span></code></pre></div></div>
+<p><strong>3.</strong> Create <code>.github/workflows/publish.yml</code> in the project and add the workflow shown below.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">name:</span> Publish Quarto site</span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">on:</span></span>
+<span id="cb2-4">  <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">push:</span></span>
+<span id="cb2-5">    <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">branches:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">[</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">main</span><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">]</span></span>
+<span id="cb2-6">  <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">workflow_dispatch:</span></span>
+<span id="cb2-7"></span>
+<span id="cb2-8"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">permissions:</span></span>
+<span id="cb2-9">  <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">contents:</span> write</span>
+<span id="cb2-10"></span>
+<span id="cb2-11"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">jobs:</span></span>
+<span id="cb2-12">  <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">publish:</span></span>
+<span id="cb2-13">    <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">runs-on:</span> ubuntu-latest</span>
+<span id="cb2-14">    <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">steps:</span></span>
+<span id="cb2-15">      <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">-</span> name: Check out repository</span>
+<span id="cb2-16">        <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">uses:</span> actions/checkout@v4</span>
+<span id="cb2-17"></span>
+<span id="cb2-18">      <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">-</span> name: Set up Quarto</span>
+<span id="cb2-19">        <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">uses:</span> quarto-dev/quarto-actions/setup@v2</span>
+<span id="cb2-20"></span>
+<span id="cb2-21">      <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">-</span> name: Publish to GitHub Pages</span>
+<span id="cb2-22">        <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">uses:</span> quarto-dev/quarto-actions/publish@v2</span>
+<span id="cb2-23">        <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">with:</span></span>
+<span id="cb2-24">          <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">target:</span> gh-pages</span>
+<span id="cb2-25">        <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">env:</span></span>
+<span id="cb2-26">          <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">GITHUB_TOKEN:</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">${</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">{ secrets.GITHUB_TOKEN </span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">}</span>}</span>
+<span id="cb2-27">          <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">```</span></span>
+<span id="cb2-28"></span>
+<span id="cb2-29"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">**4.**</span> Push the workflow to GitHub:</span>
+<span id="cb2-30"></span>
+<span id="cb2-31">   <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">```</span>bash</span>
+<span id="cb2-32">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add .github/workflows/publish.yml</span>
+<span id="cb2-33">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Add GitHub Pages publishing workflow"</span></span>
+<span id="cb2-34">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> push</span></code></pre></div></div>
+<p><strong>5.</strong> On GitHub, go to <strong>Settings → Pages</strong>. Under <strong>Build and deployment</strong>, choose <strong>Deploy from a branch</strong>, then select the <code>gh-pages</code> branch and <code>/(root)</code> folder.</p>
+<p><strong>7.</strong> Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.</p>
+<p><strong>7.</strong> When the GitHub Actions workflow succeeds, you can access your blog from <strong>Pages</strong> → Visit site</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</guid>
+  <pubDate>Sun, 13 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Monday/trinity.jpg" medium="image" type="image/jpeg"/>
+</item>
 </channel>
 </rss>

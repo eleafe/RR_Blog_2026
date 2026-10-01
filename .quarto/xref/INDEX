@@ -19,5 +19,20 @@
   },
   "posts/postt/index.qmd": {
     "index.html": "5ba07b3a"
+  },
+  "posts/Monday/index.qmd": {
+    "index.html": "46e4b94f"
+  },
+  "posts/Friday/index.qmd": {
+    "index.html": "1667fe71"
+  },
+  "posts/Tuesday/index.qmd": {
+    "index.html": "78cea236"
+  },
+  "posts/Thursday/index.qmd": {
+    "index.html": "081b6293"
+  },
+  "posts/Wednesday/index.qmd": {
+    "index.html": "bbd967fa"
   }
 }
