@@ -8,8 +8,9 @@
 
 <meta name="author" content="Eleni Afentaki">
 <meta name="dcterms.date" content="2026-09-15">
+<meta name="description" content="How to set up a pixi environment and install dependencies for bioinformatics analysis.">
 
-<title>Tuesday – RR_Blog_2026</title>
+<title>Pixi environment – RR_Blog_2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,6 +28,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -77,6 +113,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="tuesday.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -116,8 +153,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Tuesday</h1>
-                                <div class="quarto-categories">
+      <h1 class="title">Pixi environment</h1>
+                  <div>
+        <div class="description">
+          How to set up a pixi environment and install dependencies for bioinformatics analysis.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">news</div>
                 <div class="quarto-category">code</div>
                 <div class="quarto-category">analysis</div>
@@ -157,10 +199,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<pre><code>Introduction to environments</code></pre>
-<p>Quality control of sequencing data Bonus: Python in Pixi Introduction to containers Using containers on your data</p>
+<section id="pixi-environment" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="pixi-environment">Pixi environment</h2>
+<p><strong>1.</strong> Installation</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="at">-qO-</span> https://pixi.sh/install.sh <span class="kw">|</span> <span class="fu">sh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>2.</strong> Source the pixi environment to your shell configuration file. For Linux:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">~/.bashrc</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>For MacOS:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">~/.zshrc</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>3.</strong> Initialize a pixi environment and add conda and bioconda channels to the project.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> init <span class="op">&lt;</span>name of the project<span class="op">&gt;</span> -c conda-forge <span class="at">-c</span> bioconda </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Inside the newly created directory there is now one pixi.toml file, that we can inspect using <code>bash cat pixi.toml</code>. Inside the pixi.toml we can find information about the project.</p>
+<p><strong>4.</strong>Add dependencies</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> add <span class="op">&lt;</span>dependency<span class="op">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Run <code>bash pixi run &lt;dependency&gt; --version</code> to check if the dependency was installed correctly.</p>
+<p>Alternatively, use <code>pixi shell</code> to enter the pixi environment and run the command <code>&lt;dependency&gt; --version</code> to check if the dependency was installed correctly.</p>
+</section>
+<section id="educational-metaphor" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="educational-metaphor">Educational metaphor</h2>
+<p>I like to imagine a pixi environmnent as Hermione’s magic bag from Harry Potter. From the outside, our project directory looks small.</p>
+<p>pixi_nextflow/ <br>├── pixi.toml <br>└── pixi.lock/</p>
+<p>But, inside the Pixi environment we can have things such as:</p>
+<ol type="1">
+<li>Python</li>
+<li>Nextflow</li>
+<li>Java</li>
+<li>R</li>
+<li>bioinformatics tools</li>
+<li>dependencies</li>
+</ol>
+<p>By using channels using the <code>-c</code> flag when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.</p>
+<div class="tenor-gif-embed" data-postid="17139544" data-share-method="host" data-aspect-ratio="2.1931" data-width="100%">
+<a href="https://tenor.com/view/accio-purse-hermione-granger-harry-potter-gif-17139544">Accio Purse GIF</a>from <a href="https://tenor.com/search/accio-gifs">Accio GIFs</a>
+</div>
+<script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

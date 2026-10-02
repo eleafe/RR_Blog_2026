@@ -39,41 +39,55 @@
     "href": "index.html",
     "title": "You take the red pill - I show you how deep the rabbit hole goes",
     "section": "",
-    "text": "Monday\n\n\n\nnews\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTuesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWednesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 18, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Git Basics and Quarto Blog\n\n\n\nnews\n\n\n\nGetting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.\n\n\n\nEleni Afentaki\n\n\nSep 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPixi environment\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nHow to set up a pixi environment and install dependencies for bioinformatics analysis.\n\n\n\nEleni Afentaki\n\n\nSep 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWednesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 18, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Tuesday/index.html",
     "href": "posts/Tuesday/index.html",
-    "title": "Tuesday",
+    "title": "Pixi environment",
     "section": "",
-    "text": "Introduction to environments\nQuality control of sequencing data Bonus: Python in Pixi Introduction to containers Using containers on your data"
+    "text": "1. Installation\nwget -qO- https://pixi.sh/install.sh | sh\n2. Source the pixi environment to your shell configuration file. For Linux:\n~/.bashrc\nFor MacOS:\n~/.zshrc\n3. Initialize a pixi environment and add conda and bioconda channels to the project.\npixi init &lt;name of the project&gt; -c conda-forge -c bioconda \nInside the newly created directory there is now one pixi.toml file, that we can inspect using bash cat pixi.toml. Inside the pixi.toml we can find information about the project.\n4.Add dependencies\npixi add &lt;dependency&gt;\nRun bash pixi run &lt;dependency&gt; --version to check if the dependency was installed correctly.\nAlternatively, use pixi shell to enter the pixi environment and run the command &lt;dependency&gt; --version to check if the dependency was installed correctly."
   },
   {
     "objectID": "posts/Monday/index.html",
     "href": "posts/Monday/index.html",
-    "title": "Monday",
+    "title": "Git Basics and Quarto Blog",
     "section": "",
     "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
   },
   {
     "objectID": "posts/Monday/index.html#git-basics",
     "href": "posts/Monday/index.html#git-basics",
-    "title": "Monday",
+    "title": "Git Basics and Quarto Blog",
     "section": "",
     "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
   },
   {
     "objectID": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
     "href": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
-    "title": "Monday",
+    "title": "Git Basics and Quarto Blog",
     "section": "Create a Quarto Blog with VS Code",
     "text": "Create a Quarto Blog with VS Code\nView → Command Palette → Quarto: Create New Project → New Directory → Blog Website → Name your project → Select a folder to save your project → Create Project."
   },
   {
     "objectID": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
     "href": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
-    "title": "Monday",
+    "title": "Git Basics and Quarto Blog",
     "section": "Publish your Quarto Blog to GitHub Pages",
     "text": "Publish your Quarto Blog to GitHub Pages\n1. Create a repository on GitHub. No need to initialize the repository with a README, .gitignore, or license.\n2. In VS Code, open the blog’s project folder. In the terminal, run these commands, replacing USERNAME with your GitHub username:\ngit init -b main\ngit add .\ngit commit -m \"Add Quarto blog\"\ngit remote add origin https://github.com/USERNAME/RR_Blog_2026.git\ngit push -u origin main\n3. Create .github/workflows/publish.yml in the project and add the workflow shown below.\nname: Publish Quarto site\n\non:\n  push:\n    branches: [main]\n  workflow_dispatch:\n\npermissions:\n  contents: write\n\njobs:\n  publish:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n          ```\n\n**4.** Push the workflow to GitHub:\n\n   ```bash\n   git add .github/workflows/publish.yml\n   git commit -m \"Add GitHub Pages publishing workflow\"\n   git push\n5. On GitHub, go to Settings → Pages. Under Build and deployment, choose Deploy from a branch, then select the gh-pages branch and /(root) folder.\n7. Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.\n7. When the GitHub Actions workflow succeeds, you can access your blog from Pages → Visit site"
+  },
+  {
+    "objectID": "posts/Tuesday/index.html#pixi-environment",
+    "href": "posts/Tuesday/index.html#pixi-environment",
+    "title": "Pixi environment",
+    "section": "",
+    "text": "1. Installation\nwget -qO- https://pixi.sh/install.sh | sh\n2. Source the pixi environment to your shell configuration file. For Linux:\n~/.bashrc\nFor MacOS:\n~/.zshrc\n3. Initialize a pixi environment and add conda and bioconda channels to the project.\npixi init &lt;name of the project&gt; -c conda-forge -c bioconda \nInside the newly created directory there is now one pixi.toml file, that we can inspect using bash cat pixi.toml. Inside the pixi.toml we can find information about the project.\n4.Add dependencies\npixi add &lt;dependency&gt;\nRun bash pixi run &lt;dependency&gt; --version to check if the dependency was installed correctly.\nAlternatively, use pixi shell to enter the pixi environment and run the command &lt;dependency&gt; --version to check if the dependency was installed correctly."
+  },
+  {
+    "objectID": "posts/Tuesday/index.html#educational-metaphor",
+    "href": "posts/Tuesday/index.html#educational-metaphor",
+    "title": "Pixi environment",
+    "section": "Educational metaphor",
+    "text": "Educational metaphor\nI like to imagine a pixi environmnent as Hermione’s magic bag from Harry Potter. From the outside, our project directory looks small.\npixi_nextflow/ ├── pixi.toml └── pixi.lock/\nBut, inside the Pixi environment we can have things such as:\n\nPython\nNextflow\nJava\nR\nbioinformatics tools\ndependencies\n\nBy using channels using the -c flag when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.\n\nAccio Purse GIFfrom Accio GIFs"
   }
 ]

@@ -76,7 +76,7 @@
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/morpheus.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Tuesday</title>
+  <title>Pixi environment</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</link>
   <description><![CDATA[ 
@@ -85,10 +85,70 @@
 
 
 
-<pre><code>Introduction to environments</code></pre>
-<p>Quality control of sequencing data Bonus: Python in Pixi Introduction to containers Using containers on your data</p>
+<section id="pixi-environment" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="pixi-environment">Pixi environment</h2>
+<p><strong>1.</strong> Installation</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">wget</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-qO-</span> https://pixi.sh/install.sh <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">|</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sh</span></span></code></pre></div></div>
+<p><strong>2.</strong> Source the pixi environment to your shell configuration file. For Linux:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">~/.bashrc</span></span></code></pre></div></div>
+<p>For MacOS:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">~/.zshrc</span></span></code></pre></div></div>
+<p><strong>3.</strong> Initialize a pixi environment and add conda and bioconda channels to the project.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">pixi</span> init <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>name of the project<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> -c conda-forge <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-c</span> bioconda </span></code></pre></div></div>
+<p>Inside the newly created directory there is now one pixi.toml file, that we can inspect using <code>bash cat pixi.toml</code>. Inside the pixi.toml we can find information about the project.</p>
+<p><strong>4.</strong>Add dependencies</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">pixi</span> add <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>dependency<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span></span></code></pre></div></div>
+<p>Run <code>bash pixi run &lt;dependency&gt; --version</code> to check if the dependency was installed correctly.</p>
+<p>Alternatively, use <code>pixi shell</code> to enter the pixi environment and run the command <code>&lt;dependency&gt; --version</code> to check if the dependency was installed correctly.</p>
+</section>
+<section id="educational-metaphor" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="educational-metaphor">Educational metaphor</h2>
+<p>I like to imagine a pixi environmnent as Hermione’s magic bag from Harry Potter. From the outside, our project directory looks small.</p>
+<p>pixi_nextflow/ <br>├── pixi.toml <br>└── pixi.lock/</p>
+<p>But, inside the Pixi environment we can have things such as:</p>
+<ol type="1">
+<li>Python</li>
+<li>Nextflow</li>
+<li>Java</li>
+<li>R</li>
+<li>bioinformatics tools</li>
+<li>dependencies</li>
+</ol>
+<p>By using channels using the <code>-c</code> flag when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.</p>
+<div class="tenor-gif-embed" data-postid="17139544" data-share-method="host" data-aspect-ratio="2.1931" data-width="100%">
+<a href="https://tenor.com/view/accio-purse-hermione-granger-harry-potter-gif-17139544">Accio Purse GIF</a>from <a href="https://tenor.com/search/accio-gifs">Accio GIFs</a>
+</div>
+<script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
 
 
+</section>
 
  ]]></description>
   <category>news</category>
@@ -99,7 +159,7 @@
   <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/smith.png" medium="image" type="image/png" height="106" width="144"/>
 </item>
 <item>
-  <title>Monday</title>
+  <title>Git Basics and Quarto Blog</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</link>
   <description><![CDATA[ 

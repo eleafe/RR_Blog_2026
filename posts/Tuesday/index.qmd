@@ -1,13 +1,64 @@
 ---
-title: "Tuesday"
+title: "Pixi environment"
 author: "Eleni Afentaki"
 date: "2026-09-15"
 categories: [news, code, analysis]
 image: "smith.png"
+css: tuesday.css
+description: How to set up a pixi environment and install dependencies for bioinformatics analysis.
 ---
 	
-    Introduction to environments
-Quality control of sequencing data
-Bonus: Python in Pixi
-Introduction to containers
-Using containers on your data
+## Pixi environment {style="color: #1CA152;"}
+
+**1.** Installation 
+```bash
+wget -qO- https://pixi.sh/install.sh | sh
+```
+
+**2.** Source the pixi environment to your shell configuration 
+file.
+ For Linux:
+```bash
+~/.bashrc
+```
+For MacOS:
+```bash
+~/.zshrc
+```
+
+**3.** Initialize a pixi environment and add conda and bioconda channels to the project.
+
+```bash
+pixi init <name of the project> -c conda-forge -c bioconda 
+```
+Inside the newly created directory there is now one pixi.toml file, that we can inspect using ```bash cat pixi.toml```. Inside the pixi.toml we can find information about the project. 
+
+**4.**Add dependencies 
+```bash
+pixi add <dependency>
+```
+Run ```bash pixi run <dependency> --version``` to check if the dependency was installed correctly.
+
+Alternatively, use ```pixi shell``` to enter the pixi environment and run the command ```<dependency> --version``` to check if the dependency was installed correctly.
+
+## Educational metaphor {style="color: #1CA152;"}
+
+I like to imagine a pixi environmnent as Hermione's magic bag from Harry Potter. 
+From the outside, our project directory looks small.
+
+pixi_nextflow/ 
+<br>├── pixi.toml 
+<br>└── pixi.lock/
+
+But, inside the Pixi environment we can have things such as:
+
+1. Python
+2. Nextflow
+3. Java
+4. R
+5. bioinformatics tools
+6. dependencies
+
+By using channels using the ```-c``` flag  when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.
+
+<div class="tenor-gif-embed" data-postid="17139544" data-share-method="host" data-aspect-ratio="2.1931" data-width="100%"><a href="https://tenor.com/view/accio-purse-hermione-granger-harry-potter-gif-17139544">Accio Purse GIF</a>from <a href="https://tenor.com/search/accio-gifs">Accio GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>

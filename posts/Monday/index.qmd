@@ -1,10 +1,11 @@
 ---
-title: "Monday"
+title: "Git Basics and Quarto Blog"
 author: "Eleni Afentaki" 
 date: "2026-09-14"
 categories: [news]
 image: trinity.jpg
 css: monday.css
+description: Getting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.
 ---
 
 ## Git Basics {style="color: #1CA152;"}
