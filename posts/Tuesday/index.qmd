@@ -1,11 +1,11 @@
 ---
-title: "Pixi environment"
+title: "Software Environments and Containers"
 author: "Eleni Afentaki"
 date: "2026-09-15"
 categories: [news, code, analysis]
-image: "smith.png"
+image: "dream.jpg"
 css: tuesday.css
-description: How to set up a pixi environment and install dependencies for bioinformatics analysis.
+description: "Managing Software Dependencies with Pixi and Containers"
 ---
 	
 ## Pixi environment {style="color: #1CA152;"}
@@ -62,3 +62,9 @@ But, inside the Pixi environment we can have things such as:
 By using channels using the ```-c``` flag  when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.
 
 <div class="tenor-gif-embed" data-postid="17139544" data-share-method="host" data-aspect-ratio="2.1931" data-width="100%"><a href="https://tenor.com/view/accio-purse-hermione-granger-harry-potter-gif-17139544">Accio Purse GIF</a>from <a href="https://tenor.com/search/accio-gifs">Accio GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+## Containers {style="color: #1CA152;"}
+
+## Thumbnail credits {style="color: #1CA152;"}
+
+Henri Rousseau, *The Dream* (1910). Public domain image courtesy of Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Henri_Rousseau_005_(cropped).jpg

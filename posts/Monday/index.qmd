@@ -1,9 +1,9 @@
 ---
-title: "Git Basics and Quarto Blog"
-author: "Eleni Afentaki" 
+title: "Git Basics and How to build a Quarto Blog"
+author: "Eleni Afentaki"  
 date: "2026-09-14"
-categories: [news]
-image: trinity.jpg
+categories: ["Git", "Quarto", "GitHub"]
+image: monet.jpg
 css: monday.css
 description: Getting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.
 ---
@@ -61,7 +61,8 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ```
+```
+
 
 **4.** Push the workflow to GitHub:
 
@@ -77,3 +78,6 @@ jobs:
 
 **7.** When the GitHub Actions workflow succeeds, you can access your blog from **Pages** → Visit site
  
+## Thumbnail credits {style="color: #1CA152;"}
+
+Claude Monet, *The Japanese Footbridge* (1899), public domain. Image via Wikimedia Commons/Wikidata.https://commons.wikimedia.org/wiki/File:The_Water-Lily_Pond_-_Google_Arts_%26_Culture.jpg

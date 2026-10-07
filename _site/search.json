@@ -30,64 +30,162 @@
   {
     "objectID": "posts/Thursday/index.html",
     "href": "posts/Thursday/index.html",
-    "title": "Thurday",
+    "title": "Plotting with ggplot2",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "The R Graph Gallery"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "You take the red pill - I show you how deep the rabbit hole goes",
+    "title": "This is Eleni’s space.",
     "section": "",
-    "text": "Git Basics and Quarto Blog\n\n\n\nnews\n\n\n\nGetting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.\n\n\n\nEleni Afentaki\n\n\nSep 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPixi environment\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nHow to set up a pixi environment and install dependencies for bioinformatics analysis.\n\n\n\nEleni Afentaki\n\n\nSep 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWednesday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriday\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nEleni Afentaki\n\n\nSep 18, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Git Basics and How to build a Quarto Blog\n\n\n\nGit\n\nQuarto\n\nGitHub\n\n\n\nGetting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.\n\n\n\nEleni Afentaki\n\n\nSep 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Environments and Containers\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nManaging Software Dependencies with Pixi and Containers\n\n\n\nEleni Afentaki\n\n\nSep 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow and nf-core pipelines\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nIntroduction to Nextflow and nf-core pipelines for reproducible bioinformatics workflows.\n\n\n\nEleni Afentaki\n\n\nSep 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotting with ggplot2\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nCreating plots with ggplot2 in R for data visualization.\n\n\n\nEleni Afentaki\n\n\nSep 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeedback and Suggestions\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nFeedback and suggestions for improving course content.\n\n\n\nEleni Afentaki\n\n\nSep 18, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Tuesday/index.html",
     "href": "posts/Tuesday/index.html",
-    "title": "Pixi environment",
+    "title": "Software Environments and Containers",
     "section": "",
     "text": "1. Installation\nwget -qO- https://pixi.sh/install.sh | sh\n2. Source the pixi environment to your shell configuration file. For Linux:\n~/.bashrc\nFor MacOS:\n~/.zshrc\n3. Initialize a pixi environment and add conda and bioconda channels to the project.\npixi init &lt;name of the project&gt; -c conda-forge -c bioconda \nInside the newly created directory there is now one pixi.toml file, that we can inspect using bash cat pixi.toml. Inside the pixi.toml we can find information about the project.\n4.Add dependencies\npixi add &lt;dependency&gt;\nRun bash pixi run &lt;dependency&gt; --version to check if the dependency was installed correctly.\nAlternatively, use pixi shell to enter the pixi environment and run the command &lt;dependency&gt; --version to check if the dependency was installed correctly."
   },
   {
     "objectID": "posts/Monday/index.html",
     "href": "posts/Monday/index.html",
-    "title": "Git Basics and Quarto Blog",
+    "title": "Git Basics and How to build a Quarto Blog",
     "section": "",
     "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
   },
   {
     "objectID": "posts/Monday/index.html#git-basics",
     "href": "posts/Monday/index.html#git-basics",
-    "title": "Git Basics and Quarto Blog",
+    "title": "Git Basics and How to build a Quarto Blog",
     "section": "",
     "text": "Retrieved from: https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html"
   },
   {
     "objectID": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
     "href": "posts/Monday/index.html#create-a-quarto-blog-with-vs-code",
-    "title": "Git Basics and Quarto Blog",
+    "title": "Git Basics and How to build a Quarto Blog",
     "section": "Create a Quarto Blog with VS Code",
     "text": "Create a Quarto Blog with VS Code\nView → Command Palette → Quarto: Create New Project → New Directory → Blog Website → Name your project → Select a folder to save your project → Create Project."
   },
   {
     "objectID": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
     "href": "posts/Monday/index.html#publish-your-quarto-blog-to-github-pages",
-    "title": "Git Basics and Quarto Blog",
+    "title": "Git Basics and How to build a Quarto Blog",
     "section": "Publish your Quarto Blog to GitHub Pages",
-    "text": "Publish your Quarto Blog to GitHub Pages\n1. Create a repository on GitHub. No need to initialize the repository with a README, .gitignore, or license.\n2. In VS Code, open the blog’s project folder. In the terminal, run these commands, replacing USERNAME with your GitHub username:\ngit init -b main\ngit add .\ngit commit -m \"Add Quarto blog\"\ngit remote add origin https://github.com/USERNAME/RR_Blog_2026.git\ngit push -u origin main\n3. Create .github/workflows/publish.yml in the project and add the workflow shown below.\nname: Publish Quarto site\n\non:\n  push:\n    branches: [main]\n  workflow_dispatch:\n\npermissions:\n  contents: write\n\njobs:\n  publish:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n          ```\n\n**4.** Push the workflow to GitHub:\n\n   ```bash\n   git add .github/workflows/publish.yml\n   git commit -m \"Add GitHub Pages publishing workflow\"\n   git push\n5. On GitHub, go to Settings → Pages. Under Build and deployment, choose Deploy from a branch, then select the gh-pages branch and /(root) folder.\n7. Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.\n7. When the GitHub Actions workflow succeeds, you can access your blog from Pages → Visit site"
+    "text": "Publish your Quarto Blog to GitHub Pages\n1. Create a repository on GitHub. No need to initialize the repository with a README, .gitignore, or license.\n2. In VS Code, open the blog’s project folder. In the terminal, run these commands, replacing USERNAME with your GitHub username:\ngit init -b main\ngit add .\ngit commit -m \"Add Quarto blog\"\ngit remote add origin https://github.com/USERNAME/RR_Blog_2026.git\ngit push -u origin main\n3. Create .github/workflows/publish.yml in the project and add the workflow shown below.\nname: Publish Quarto site\n\non:\n  push:\n    branches: [main]\n  workflow_dispatch:\n\npermissions:\n  contents: write\n\njobs:\n  publish:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n4. Push the workflow to GitHub:\ngit add .github/workflows/publish.yml\ngit commit -m \"Add GitHub Pages publishing workflow\"\ngit push\n5. On GitHub, go to Settings → Pages. Under Build and deployment, choose Deploy from a branch, then select the gh-pages branch and /(root) folder.\n7. Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.\n7. When the GitHub Actions workflow succeeds, you can access your blog from Pages → Visit site"
   },
   {
     "objectID": "posts/Tuesday/index.html#pixi-environment",
     "href": "posts/Tuesday/index.html#pixi-environment",
-    "title": "Pixi environment",
+    "title": "Software Environments and Containers",
     "section": "",
     "text": "1. Installation\nwget -qO- https://pixi.sh/install.sh | sh\n2. Source the pixi environment to your shell configuration file. For Linux:\n~/.bashrc\nFor MacOS:\n~/.zshrc\n3. Initialize a pixi environment and add conda and bioconda channels to the project.\npixi init &lt;name of the project&gt; -c conda-forge -c bioconda \nInside the newly created directory there is now one pixi.toml file, that we can inspect using bash cat pixi.toml. Inside the pixi.toml we can find information about the project.\n4.Add dependencies\npixi add &lt;dependency&gt;\nRun bash pixi run &lt;dependency&gt; --version to check if the dependency was installed correctly.\nAlternatively, use pixi shell to enter the pixi environment and run the command &lt;dependency&gt; --version to check if the dependency was installed correctly."
   },
   {
     "objectID": "posts/Tuesday/index.html#educational-metaphor",
     "href": "posts/Tuesday/index.html#educational-metaphor",
-    "title": "Pixi environment",
+    "title": "Software Environments and Containers",
     "section": "Educational metaphor",
     "text": "Educational metaphor\nI like to imagine a pixi environmnent as Hermione’s magic bag from Harry Potter. From the outside, our project directory looks small.\npixi_nextflow/ ├── pixi.toml └── pixi.lock/\nBut, inside the Pixi environment we can have things such as:\n\nPython\nNextflow\nJava\nR\nbioinformatics tools\ndependencies\n\nBy using channels using the -c flag when initializing the pixi environment, we can install dependencies from different sources. We specify which magical shops to visit when we need to put something into the bag.\n\nAccio Purse GIFfrom Accio GIFs"
+  },
+  {
+    "objectID": "posts/Wednesday/index.html",
+    "href": "posts/Wednesday/index.html",
+    "title": "Nextflow and nf-core pipelines",
+    "section": "",
+    "text": "Nextflow is a workflow management system that enables scalable and reproducible scientific workflows. It allows us to write complex pipelines in a simple and readable manner, while also providing support for parallel execution and integration with various computing environments.\n\n\n\nRetrieved from https://carpentries-incubator.github.io/Pipeline_Training_with_Nextflow/02-Intro_to_Nextflow/index.html\n\n\nLearn more about Nextflow here: Nextflow Documentation"
+  },
+  {
+    "objectID": "posts/Wednesday/index.html#nextflow-basics",
+    "href": "posts/Wednesday/index.html#nextflow-basics",
+    "title": "Nextflow and nf-core pipelines",
+    "section": "",
+    "text": "Nextflow is a workflow management system that enables scalable and reproducible scientific workflows. It allows us to write complex pipelines in a simple and readable manner, while also providing support for parallel execution and integration with various computing environments.\n\n\n\nRetrieved from https://carpentries-incubator.github.io/Pipeline_Training_with_Nextflow/02-Intro_to_Nextflow/index.html\n\n\nLearn more about Nextflow here: Nextflow Documentation"
+  },
+  {
+    "objectID": "posts/Wednesday/index.html#setting-up-an-nf-core-pipeline",
+    "href": "posts/Wednesday/index.html#setting-up-an-nf-core-pipeline",
+    "title": "Nextflow and nf-core pipelines",
+    "section": "Setting up an nf-core Pipeline",
+    "text": "Setting up an nf-core Pipeline"
+  },
+  {
+    "objectID": "posts/Tuesday/index.html#containers",
+    "href": "posts/Tuesday/index.html#containers",
+    "title": "Software Environments and Containers",
+    "section": "Containers",
+    "text": "Containers"
+  },
+  {
+    "objectID": "posts/Friday/index.html",
+    "href": "posts/Friday/index.html",
+    "title": "Feedback and Credits",
+    "section": "",
+    "text": "The process of building a Quarto blog and publishing it to GitHub Pages has been one of the most creative things I have done in a while.\nMy perfectionism and desire to create a visually appealing blog that at the same time reveals my personality has led me to spend a lot of time on the design and layout. I have been experimenting with different themes, layouts, and colors before settling on this final design.\nAfter enough thinking, I decided to use matrix raining code on the backround of the welcome page and use the neon green and black aesthetics in my blog, as a tribute to one of my favorite childhood movies “The Matrix”.\nI wanted to desing interesting thumbnails for my posts, so I tried to match every post with a painting that I thought would fit the topic. I chose The Japanese footbridge by Monet for the GitHub Basics and How to build a Quarto Blog post as a metaphor for these reproducible research tools that help us connect the different parts of our research and make them more accessible to others. The The Dream by Henri Rousseau in the Software Environments and Containers shows woman reclining on a couch in Paris, dreaming she is listening to a flute player in the jungle. I used this painting as a metaphor for the software environments and containers that allow us to run our code in different environments, just like the woman in the painting is dreaming of being in a different place. There are two art pieces of Gustav Klimt as well. The Park used in Nextflow and nf-core pipelines reminds me of the representation of the channels in the Nextflow pipelines and the Medicine painting used in Feedback and Credits is one of my favorite paintings of all time. Just notice the Hygeia female figure down in the middle of the painting, who is the goddess of health. Circles in a circle by Vassily Kandinsky used in Plotting with ggplot2 reminds me a lot of the plots we can create with ggplot2.\nWe have talked about cinema and art. We should also talk about music. Currently, I am listening to the Irish bandFontaines D.C. One of my favourite discoveries lately. Fontaines D.C draw heavy inspiration from working-class Irish literature and traditional music, to sing about Dead-End Loves and Fantasies, Mental Health and engage in Political Criticism."
+  },
+  {
+    "objectID": "posts/Friday/index.html#the-inspiration-behind-the-blog",
+    "href": "posts/Friday/index.html#the-inspiration-behind-the-blog",
+    "title": "Feedback and Credits",
+    "section": "",
+    "text": "The process of building a Quarto blog and publishing it to GitHub Pages has been one of the most creative things I have done in a while.\nMy perfectionism and desire to create a visually appealing blog that at the same time reveals my personality has led me to spend a lot of time on the design and layout. I have been experimenting with different themes, layouts, and colors before settling on this final design.\nAfter enough thinking, I decided to use matrix raining code on the backround of the welcome page and use the neon green and black aesthetics in my blog, as a tribute to one of my favorite childhood movies “The Matrix”.\nI wanted to desing interesting thumbnails for my posts, so I tried to match every post with a painting that I thought would fit the topic. I chose The Japanese footbridge by Monet for the GitHub Basics and How to build a Quarto Blog post as a metaphor for these reproducible research tools that help us connect the different parts of our research and make them more accessible to others. The The Dream by Henri Rousseau in the Software Environments and Containers shows woman reclining on a couch in Paris, dreaming she is listening to a flute player in the jungle. I used this painting as a metaphor for the software environments and containers that allow us to run our code in different environments, just like the woman in the painting is dreaming of being in a different place. There are two art pieces of Gustav Klimt as well. The Park used in Nextflow and nf-core pipelines reminds me of the representation of the channels in the Nextflow pipelines and the Medicine painting used in Feedback and Credits is one of my favorite paintings of all time. Just notice the Hygeia female figure down in the middle of the painting, who is the goddess of health. Circles in a circle by Vassily Kandinsky used in Plotting with ggplot2 reminds me a lot of the plots we can create with ggplot2.\nWe have talked about cinema and art. We should also talk about music. Currently, I am listening to the Irish bandFontaines D.C. One of my favourite discoveries lately. Fontaines D.C draw heavy inspiration from working-class Irish literature and traditional music, to sing about Dead-End Loves and Fantasies, Mental Health and engage in Political Criticism."
+  },
+  {
+    "objectID": "index.html#artwork-credits",
+    "href": "index.html#artwork-credits",
+    "title": "This is Eleni’s space.",
+    "section": "Artwork credits",
+    "text": "Artwork credits\n\n[Image title] — [Creator], [year].\nWikimedia Commons file page.\nLicense: license name. [Note any changes, if applicable.]"
+  },
+  {
+    "objectID": "posts/Friday/index.html#artwork-credits",
+    "href": "posts/Friday/index.html#artwork-credits",
+    "title": "Feedback and Credits",
+    "section": "Artwork credits",
+    "text": "Artwork credits\n-Thumbnail credit: Claude Monet, The Japanese Footbridge (1899), public domain. Image via Wikimedia Commons/Wikidata."
+  },
+  {
+    "objectID": "posts/Monday/index.html#artwork-credits",
+    "href": "posts/Monday/index.html#artwork-credits",
+    "title": "Git Basics and How to build a Quarto Blog",
+    "section": "Artwork credits",
+    "text": "Artwork credits\nThumbnail credit: Claude Monet, The Japanese Footbridge (1899), public domain. Image via Wikimedia Commons/Wikidata."
+  },
+  {
+    "objectID": "posts/Monday/index.html#thumbnail-credits",
+    "href": "posts/Monday/index.html#thumbnail-credits",
+    "title": "Git Basics and How to build a Quarto Blog",
+    "section": "Thumbnail credits",
+    "text": "Thumbnail credits\nClaude Monet, The Japanese Footbridge (1899), public domain. Image via Wikimedia Commons/Wikidata.https://commons.wikimedia.org/wiki/File:The_Water-Lily_Pond_-Google_Arts%26_Culture.jpg"
+  },
+  {
+    "objectID": "posts/Tuesday/index.html#thumbnail-credits",
+    "href": "posts/Tuesday/index.html#thumbnail-credits",
+    "title": "Software Environments and Containers",
+    "section": "Thumbnail credits",
+    "text": "Thumbnail credits\nHenri Rousseau, The Dream (1910). Public domain image courtesy of Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Henri_Rousseau_005_(cropped).jpg"
+  },
+  {
+    "objectID": "posts/Wednesday/index.html#thumbnail-credits",
+    "href": "posts/Wednesday/index.html#thumbnail-credits",
+    "title": "Nextflow and nf-core pipelines",
+    "section": "Thumbnail credits",
+    "text": "Thumbnail credits\nGustav Klimt, The Park (c. 1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_032.jpg"
+  },
+  {
+    "objectID": "posts/Thursday/index.html#thumbnail-credits",
+    "href": "posts/Thursday/index.html#thumbnail-credits",
+    "title": "Plotting with ggplot2",
+    "section": "Thumbnail credits",
+    "text": "Thumbnail credits\nWassily Kandinsky, Circles in a circle (1923). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Kandinsky_-_Circles_in_a_Circle,_1923,_1950-134-104.jpg"
+  },
+  {
+    "objectID": "posts/Friday/index.html#thumbnail-credits",
+    "href": "posts/Friday/index.html#thumbnail-credits",
+    "title": "Feedback and Credits",
+    "section": "Thumbnail credits",
+    "text": "Thumbnail credits\nGustav Klimt, Medicine (c. 1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-Medicine(recolored_with_Artificial_Intelligence)_-_Google_Art_Project.jpg"
   }
 ]

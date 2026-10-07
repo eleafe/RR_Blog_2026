@@ -1,7 +1,28 @@
 ---
-title: "Friday"
+title: "Feedback and Credits"
 author: "Eleni Afentaki"
 date: "2026-09-18"
 categories: [news, code, analysis]
-image: "oracle.png"
+image: "klimt.jpg"
+css: "friday.css"
+description: "Feedback and suggestions for improving course content."
 ---
+## The inspiration behind the blog {style="color: #1CA152;"}
+
+The process of building a Quarto blog and publishing it to GitHub Pages has been one of the most creative things I have done in a while. 
+
+My perfectionism and desire to create a visually appealing blog that at the same time reveals my personality has led me to spend a lot of time on the design and layout. I have been experimenting with different themes, layouts, and colors before settling on this final design.
+
+After enough thinking, I decided to use [matrix raining code]{style="color: #1CA152;"} on the backround of the welcome page and use the neon green and black aesthetics in my blog, as a tribute to one of my favorite childhood movies [**"The Matrix"**]{style="color: #1CA152;"}.
+
+I wanted to desing interesting thumbnails for my posts, so I tried to match every post with a painting that I thought would fit the topic. I chose *The Japanese footbridge* by Monet for the [GitHub Basics and How to build a Quarto Blog](/Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Monday/index.qmd) post as a metaphor for these reproducible research tools that help us connect the different parts of our research and make them more accessible to others. <br>The *The Dream* by Henri Rousseau in the [Software Environments and Containers](/Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Tuesday/index.qmd) shows woman reclining on a couch in Paris, dreaming she is listening to a flute player in the jungle. I used this painting as a metaphor for the software environments and containers that allow us to run our code in different environments, just like the woman in the painting is dreaming of being in a different place. <br>There are two art pieces of Gustav Klimt as well. *The Park* used in [Nextflow and nf-core pipelines](/Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Wednesday/index.qmd) reminds me of the representation of the channels in the Nextflow pipelines and the *Medicine* painting used in [Feedback and Credits](/Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Friday/index.qmd) is one of my favorite paintings of all time. Just notice the Hygeia female figure down in the middle of the painting, who is the goddess of health. *Circles in a circle* by Vassily Kandinsky used in [Plotting with ggplot2](/Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Thursday/index.qmd) reminds me a lot of the plots we can create with ggplot2. 
+
+We have talked about cinema and art. We should also talk about music. Currently, I am listening to the Irish band[*Fontaines D.C.* ]{style="color: #1CA152;"} One of my favourite discoveries lately. Fontaines D.C draw heavy inspiration from working-class Irish literature and traditional music, to sing about Dead-End Loves and Fantasies, Mental Health and engage in Political Criticism. 
+
+## Thumbnail credits {style="color: #1CA152;"}
+
+Gustav Klimt, *Medicine* (c. 1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Medicine_(recolored_with_Artificial_Intelligence)_-_Google_Art_Project.jpg
+
+
+
+

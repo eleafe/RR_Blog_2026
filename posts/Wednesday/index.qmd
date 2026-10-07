@@ -1,7 +1,23 @@
 ---
-title: "Wednesday"
+title: "Nextflow and nf-core pipelines"
 author: "Eleni Afentaki"
 date: "2026-09-16"
 categories: [news, code, analysis]
-image: "morpheus.jpg"
+image: "klimt.jpg"
+css: wednesday.css
+description: "Introduction to Nextflow and nf-core pipelines for reproducible bioinformatics workflows."
 ---
+
+## Nextflow Basics {style="color: #1CA152;"}
+
+Nextflow is a workflow management system that enables scalable and reproducible scientific workflows. It allows us to write complex pipelines in a simple and readable manner, while also providing support for parallel execution and integration with various computing environments.
+
+![Retrieved from https://carpentries-incubator.github.io/Pipeline_Training_with_Nextflow/02-Intro_to_Nextflow/index.html](nextflow.png)
+
+Learn more about Nextflow here: [Nextflow Documentation](https://www.nextflow.io/docs/latest/index.html)
+
+## Setting up an nf-core Pipeline {style="color: #1CA152;"}
+
+## Thumbnail credits {style="color: #1CA152;"}
+
+Gustav Klimt, *The Park* (c. 1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_032.jpg

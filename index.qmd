@@ -1,5 +1,5 @@
 ---
-title: "You take the red pill - I show you how deep the rabbit hole goes"
+title: "This is Eleni's space."
 listing:
   contents: posts
   feed: true
@@ -14,4 +14,7 @@ title-block-banner: true
 css: index.css
 ---
 
+## <i class="bi bi-music-note-beamed"></i> Now playing 
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/3DWP3j1ZNxx2UsFGBsGFp9?utm_source=generator&theme=0&si=4e05ee59e8ee44a6" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

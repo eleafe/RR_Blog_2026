@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2026-09-14">
 <meta name="description" content="Getting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.">
 
-<title>Git Basics and Quarto Blog – RR_Blog_2026</title>
+<title>Git Basics and How to build a Quarto Blog – RR_Blog_2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -153,14 +153,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Git Basics and Quarto Blog</h1>
+      <h1 class="title">Git Basics and How to build a Quarto Blog</h1>
                   <div>
         <div class="description">
           Getting started with git and creating a Quarto blog with VS Code and publishing it to GitHub Pages.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">Git</div>
+                <div class="quarto-category">Quarto</div>
+                <div class="quarto-category">GitHub</div>
               </div>
                   </div>
   </div>
@@ -245,18 +247,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        <span class="ex">with:</span></span>
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>          <span class="ex">target:</span> gh-pages</span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        <span class="ex">env:</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>          <span class="ex">GITHUB_TOKEN:</span> <span class="va">${</span><span class="er">{ secrets.GITHUB_TOKEN </span><span class="va">}</span>}</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>          <span class="kw">```</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="ex">**4.**</span> Push the workflow to GitHub:</span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>   <span class="kw">```</span>bash</span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .github/workflows/publish.yml</span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add GitHub Pages publishing workflow"</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>          <span class="ex">GITHUB_TOKEN:</span> <span class="va">${</span><span class="er">{ secrets.GITHUB_TOKEN </span><span class="va">}</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>4.</strong> Push the workflow to GitHub:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .github/workflows/publish.yml</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add GitHub Pages publishing workflow"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>5.</strong> On GitHub, go to <strong>Settings → Pages</strong>. Under <strong>Build and deployment</strong>, choose <strong>Deploy from a branch</strong>, then select the <code>gh-pages</code> branch and <code>/(root)</code> folder.</p>
 <p><strong>7.</strong> Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.</p>
 <p><strong>7.</strong> When the GitHub Actions workflow succeeds, you can access your blog from <strong>Pages</strong> → Visit site</p>
+</section>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Claude Monet, <em>The Japanese Footbridge</em> (1899), public domain. Image via Wikimedia Commons/Wikidata.https://commons.wikimedia.org/wiki/File:The_Water-Lily_Pond_-<em>Google_Arts</em>%26_Culture.jpg</p>
 
 
 </section>

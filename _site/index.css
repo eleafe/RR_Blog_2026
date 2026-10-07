@@ -4,8 +4,7 @@ body{
     background-position: center;
 }
 
-.navbar-brand,
-.navbar-title {
+.navbar-brand{
   color: #1CA152 !important;
 }
 
@@ -20,7 +19,6 @@ body{
   display: inline-block;
 }
 
-#title-block-header .title,
 .quarto-title-block .title {
   color: black !important;
   font-size: 25px;
@@ -40,4 +38,27 @@ body{
   color: #1CA152 !important;
   font-size: 24px !important;
   font-weight: bold; 
+}
+
+.listing-grid .quarto-post .thumbnail {
+  height: 230px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.listing-grid .quarto-post .thumbnail {
+  height: 220px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.listing-grid .quarto-post .thumbnail img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+h2{
+  color: #1CA152 !important;
 }

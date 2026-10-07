@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-image: Me.jpg
+image: protopapas.png
 css: about.css
 about:
   template: trestles

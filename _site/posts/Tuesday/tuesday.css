@@ -9,7 +9,6 @@ p{
     font-family: helvetica, sans-serif;
 }
 
-#title-block-header .title,
 .quarto-title-block .title {
   color: black !important;
   font-size: 25px !important;
@@ -17,3 +16,10 @@ p{
   font-family: Helvetica, sans-serif;
 }
 
+.quarto-title-meta-heading{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: #1CA152 !important;
+}

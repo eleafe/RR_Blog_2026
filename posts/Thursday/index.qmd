@@ -1,9 +1,15 @@
 ---
-title: "Thurday"
+title: "Plotting with ggplot2"
 author: "Eleni Afentaki"
 date: "2026-09-17"
 categories: [news, code, analysis]
-image: "neo.png"
+image: "kandinsky.jpg"
+css: thursday.css
+description: "Creating plots with ggplot2 in R for data visualization."
 ---
 
-This is a post with executable code.
+[The R Graph Gallery](https://r-graph-gallery.com)
+
+## Thumbnail credits {style="color: #1CA152;"}
+
+Wassily Kandinsky, *Circles in a circle* (1923). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Kandinsky_-_Circles_in_a_Circle,_1923,_1950-134-104.jpg
