@@ -17,3 +17,10 @@ p{
   font-family: Helvetica, sans-serif;
 }
 
+.quarto-title-meta-heading{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: #1CA152 !important;
+}

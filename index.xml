@@ -9,10 +9,10 @@
 <link>https://eleafe.github.io/RR_Blog_2026/</link>
 <atom:link href="https://eleafe.github.io/RR_Blog_2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.10.18</generator>
+<generator>quarto-1.10.19</generator>
 <lastBuildDate>Fri, 18 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Friday</title>
+  <title>Feedback and Credits</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</link>
   <description><![CDATA[ 
@@ -21,8 +21,20 @@
 
 
 
+<section id="the-inspiration-behind-the-blog" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="the-inspiration-behind-the-blog">The inspiration behind the blog</h2>
+<p>The process of building a Quarto blog and publishing it to GitHub Pages has been one of the most creative things I have done in a while.</p>
+<p>My perfectionism and desire to create a visually appealing blog that at the same time reveals my personality has led me to spend a lot of time on the design and layout. I have been experimenting with different themes, layouts, and colors before settling on this final design.</p>
+<p>After enough thinking, I decided to use <span style="color: #1CA152;">matrix raining code</span> on the backround of the welcome page and use the neon green and black aesthetics in my blog, as a tribute to one of my favorite childhood movies <span style="color: #1CA152;"><strong>“The Matrix”</strong></span>.</p>
+<p>I wanted to desing interesting thumbnails for my posts, so I tried to match every post with a painting that I thought would fit the topic. I chose <em>The Japanese footbridge</em> by Monet for the <a href="../../Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Monday/index.qmd">GitHub Basics and How to build a Quarto Blog</a> post as a metaphor for these reproducible research tools that help us connect the different parts of our research and make them more accessible to others. <br>The <em>The Dream</em> by Henri Rousseau in the <a href="../../Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Tuesday/index.qmd">Software Environments and Containers</a> shows woman reclining on a couch in Paris, dreaming she is listening to a flute player in the jungle. I used this painting as a metaphor for the software environments and containers that allow us to run our code in different environments, just like the woman in the painting is dreaming of being in a different place. <br>There are two art pieces of Gustav Klimt as well. <em>The Park</em> used in <a href="../../Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Wednesday/index.qmd">Nextflow and nf-core pipelines</a> reminds me of the representation of the channels in the Nextflow pipelines and the <em>Medicine</em> painting used in <a href="../../Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Friday/index.qmd">Feedback and Credits</a> is one of my favorite paintings of all time. Just notice the Hygeia female figure down in the middle of the painting, who is the goddess of health. <em>Circles in a circle</em> by Vassily Kandinsky used in <a href="../../Users/eleni.afentaki/Documents/Documents/KAROLINSKA/PhD/BIOINFORMATICS/COURSES/Reproducible Research MedBioInfo/RR_Blog_2026/posts/Thursday/index.qmd">Plotting with ggplot2</a> reminds me a lot of the plots we can create with ggplot2.</p>
+<p>We have talked about cinema and art. We should also talk about music. Currently, I am listening to the Irish band<span style="color: #1CA152;"><em>Fontaines D.C.</em></span> One of my favourite discoveries lately. Fontaines D.C draw heavy inspiration from working-class Irish literature and traditional music, to sing about Dead-End Loves and Fantasies, Mental Health and engage in Political Criticism.</p>
+</section>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Gustav Klimt, <em>Medicine</em> (c.&nbsp;1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-<em>Medicine</em>(recolored_with_Artificial_Intelligence)_-_Google_Art_Project.jpg</p>
 
 
+</section>
 
  ]]></description>
   <category>news</category>
@@ -30,10 +42,10 @@
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Friday/</guid>
   <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Friday/oracle.png" medium="image" type="image/png" height="97" width="144"/>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Friday/klimt.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Thurday</title>
+  <title>Plotting with ggplot2</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</link>
   <description><![CDATA[ 
@@ -42,9 +54,13 @@
 
 
 
-<p>This is a post with executable code.</p>
+<p><a href="https://r-graph-gallery.com">The R Graph Gallery</a></p>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Wassily Kandinsky, <em>Circles in a circle</em> (1923). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Kandinsky_-_Circles_in_a_Circle,_1923,_1950-134-104.jpg</p>
 
 
+</section>
 
  ]]></description>
   <category>news</category>
@@ -52,10 +68,10 @@
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Thursday/</guid>
   <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Thursday/neo.png" medium="image" type="image/png" height="76" width="144"/>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Thursday/kandinsky.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Wednesday</title>
+  <title>Nextflow and nf-core pipelines</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</link>
   <description><![CDATA[ 
@@ -64,8 +80,26 @@
 
 
 
+<section id="nextflow-basics" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="nextflow-basics">Nextflow Basics</h2>
+<p>Nextflow is a workflow management system that enables scalable and reproducible scientific workflows. It allows us to write complex pipelines in a simple and readable manner, while also providing support for parallel execution and integration with various computing environments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/nextflow.png" class="img-fluid figure-img"></p>
+<figcaption>Retrieved from https://carpentries-incubator.github.io/Pipeline_Training_with_Nextflow/02-Intro_to_Nextflow/index.html</figcaption>
+</figure>
+</div>
+<p>Learn more about Nextflow here: <a href="https://www.nextflow.io/docs/latest/index.html">Nextflow Documentation</a></p>
+</section>
+<section id="setting-up-an-nf-core-pipeline" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="setting-up-an-nf-core-pipeline">Setting up an nf-core Pipeline</h2>
+</section>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Gustav Klimt, <em>The Park</em> (c.&nbsp;1910). Public domain image via Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Gustav_Klimt_032.jpg</p>
 
 
+</section>
 
  ]]></description>
   <category>news</category>
@@ -73,10 +107,10 @@
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/</guid>
   <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/morpheus.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Wednesday/klimt.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Pixi environment</title>
+  <title>Software Environments and Containers</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</link>
   <description><![CDATA[ 
@@ -146,6 +180,13 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
 <a href="https://tenor.com/view/accio-purse-hermione-granger-harry-potter-gif-17139544">Accio Purse GIF</a>from <a href="https://tenor.com/search/accio-gifs">Accio GIFs</a>
 </div>
 <script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
+</section>
+<section id="containers" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="containers">Containers</h2>
+</section>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Henri Rousseau, <em>The Dream</em> (1910). Public domain image courtesy of Wikimedia Commons.https://commons.wikimedia.org/wiki/File:Henri_Rousseau_005_(cropped).jpg</p>
 
 
 </section>
@@ -156,10 +197,10 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
   <category>analysis</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/</guid>
   <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/smith.png" medium="image" type="image/png" height="106" width="144"/>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Tuesday/dream.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Git Basics and Quarto Blog</title>
+  <title>Git Basics and How to build a Quarto Blog</title>
   <dc:creator>Eleni Afentaki</dc:creator>
   <link>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</link>
   <description><![CDATA[ 
@@ -288,45 +329,39 @@ font-style: inherit;">${</span><span class="er" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">{ secrets.GITHUB_TOKEN </span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">}</span>}</span>
-<span id="cb2-27">          <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">```</span></span>
-<span id="cb2-28"></span>
-<span id="cb2-29"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">**4.**</span> Push the workflow to GitHub:</span>
-<span id="cb2-30"></span>
-<span id="cb2-31">   <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">```</span>bash</span>
-<span id="cb2-32">   <span class="fu" style="color: #4758AB;
+font-style: inherit;">}</span>}</span></code></pre></div></div>
+<p><strong>4.</strong> Push the workflow to GitHub:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">git</span> add .github/workflows/publish.yml</span>
-<span id="cb2-33">   <span class="fu" style="color: #4758AB;
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Add GitHub Pages publishing workflow"</span></span>
-<span id="cb2-34">   <span class="fu" style="color: #4758AB;
+<span id="cb3-3"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">git</span> push</span></code></pre></div></div>
 <p><strong>5.</strong> On GitHub, go to <strong>Settings → Pages</strong>. Under <strong>Build and deployment</strong>, choose <strong>Deploy from a branch</strong>, then select the <code>gh-pages</code> branch and <code>/(root)</code> folder.</p>
 <p><strong>7.</strong> Go to Actions to check the status of your workflow. If it fails, check the logs for errors and fix them.</p>
 <p><strong>7.</strong> When the GitHub Actions workflow succeeds, you can access your blog from <strong>Pages</strong> → Visit site</p>
+</section>
+<section id="thumbnail-credits" class="level2" style="color: #1CA152;">
+<h2 style="color: #1CA152;" class="anchored" data-anchor-id="thumbnail-credits">Thumbnail credits</h2>
+<p>Claude Monet, <em>The Japanese Footbridge</em> (1899), public domain. Image via Wikimedia Commons/Wikidata.https://commons.wikimedia.org/wiki/File:The_Water-Lily_Pond_-<em>Google_Arts</em>%26_Culture.jpg</p>
 
 
 </section>
 
  ]]></description>
-  <category>news</category>
+  <category>Git</category>
+  <category>Quarto</category>
+  <category>GitHub</category>
   <guid>https://eleafe.github.io/RR_Blog_2026/posts/Monday/</guid>
   <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Monday/trinity.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://eleafe.github.io/RR_Blog_2026/posts/Monday/monet.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
